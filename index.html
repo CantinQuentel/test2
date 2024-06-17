@@ -6,8 +6,8 @@
   <body>
     <a-scene>
       <a-sky src="./panocantin1.jpg" sound="src: ./soncombatrobot.mp3; autoplay: true; loop: true"></a-sky>
-     <a-entity id="robot" modify-materials="red" modelfix="" gltf-model="./Technobot_avecflame.gltf" position="-0.06966 1.32289 1.09941" rotation="0 179.42746312316865 0"></a-entity>
-     <a-light type="ambient" color="#222" light="type: spot; angle: 61.6; distance: 1.71; intensity: 50; penumbra: 1" position="-0.03949 1.43706 0.96821" rotation="3.0785022332379133 -125.60208897519367 179.9998479605043"></a-light>
+     <a-entity id="robot" modify-materials="red" modelfix="" gltf-model="./Technobot_avecflame.gltf" position="-0.06966 1.32289 1.09941" rotation="0 179.42746312316865 0" animation="property: position; to: -0.06966 1.12289 1.09941; dir: alternate; dur: 2000; easing: linear; loop: true">
+     <a-light type="ambient" color="#222" light="type: spot; angle: 61.6; distance: 1.71; intensity: 50; penumbra: 1" position="-0.03949 1.43706 0.96821" rotation="3.0785022332379133 -125.60208897519367 179.9998479605043"></a-light></a-entity>
     </a-scene>
   </body>
 </html>
